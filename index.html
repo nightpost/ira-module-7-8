@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>PINGBULLER</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -14,27 +14,24 @@
         <section class="mountain">
             <header>
                 <a class="header__logo" href="#"><img src="img/logo.png" alt="pingbuller"></a>
-                <div class="header__link">
-                    <span>home</span>
-                </div>
-                <nav class="menu">
-                    <a class="menu__link" href="#">home</a>
-                    <a class="menu__link" href="#">about</a>
-                    <a class="menu__link" href="#">blog</a>
-                    <a class="menu__link" href="#">products</a>
-                    <a class="menu__link" href="#">lorem ipsum</a>
-                    <a class="menu__link" href="#">dolor sit amet</a>
-                </nav>
+                <ul class="menu clearfix">
+                    <li class="menu__item"><a class="menu__link menu__link--active" href="#">home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">about</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">products</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">lorem ipsum</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">dolor sit amet</a></li>
+                </ul>
             </header>
-            <!--ENS header-->
+            <!--END header-->
 
             <div class="mountain__slider">
                 <div class="slider__item">
                     <h1 class="slider__title">lorem ipsum dolor</h1>
-                    <h1 class="slider__subtitle">it will make all of your dreams come</h1>
-                </div>
-                <div class="slider__text">
-                    <p>Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+                    <h1 class="slider__subtitle-xl">it will make all of your dreams come true</h1>
+                    <h1 class="slider__subtitle-l">it will make all of your dreams come</h1>
+                    <p class="slider__text-xl">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+                    <p class="slider__text-l">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est</p>
                 </div>
                 <img class="slider__image" src="img/iphone.png" alt="iphone4">
             </div>
@@ -48,61 +45,70 @@
         <!--END mountain-->
 
         <section class="description">
-            <div class="description__about">
-                <div class="about__about-box">
-                    <h1 class="about__title">about our company</h1>
-                    <p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus</p>
-                    <a href="#" class="about__extra">read more</a>
+            <div class="description__box">
+                <div class="description__item description__item--key">
+                    <h1 class="description__title">about our company</h1>
+                    <p class="description__text-xl">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <p class="description__text-l">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus</p>
+                    <a href="#" class="description__extra description__extra--active">read more</a>
                 </div>
-                <div class="about__about-box">
-                    <h1 class="about__title">about our company</h1>
-                    <p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus</p>
-                    <a href="#" class="about__extra">read more</a>
+                <div class="description__item description__item--cloud">
+                    <h1 class="description__title">about our company</h1>
+                    <p class="description__text-xl">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <p class="description__text-l">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus</p>
+                    <a href="#" class="description__extra">read more</a>
                 </div>
-                <div class="about__about-box">
-                    <h1 class="about__title">about our company</h1>
-                    <p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus</p>
-                    <a href="#" class="about__extra">read more</a>
+                <div class="description__item description__item--note">
+                    <h1 class="description__title">about our company</h1>
+                    <p class="description__text-xl">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <p class="description__text-l">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus</p>
+                    <a href="#" class="description__extra">read more</a>
                 </div>
             </div>
         </section>
-        <!--END about-->
+        <!--END description-->
 
         <section class="info">
             <div class="info__box">
-                <div class="info__bio">
-                    <div>
-                        <h1 class="bio__title">pingbuller</h1>
-                        <h1 class="bio__title bio__title--pink">starts here</h1>
-                        <p class="bio__big-text">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl."</p>
-                        <p class="bio__small-text">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor</p>
+                <div class="info__slider">
+                    <div class="info__bio">
+                        <span class="bio__title">pingbuller</span>
+                        <span class="bio__title bio__title--pink">starts here</span>
+                        <p class="bio__text-xl">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu</p>
+                        <p class="bio__text-l">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar</p>
+                        <!--<p class="bio__text-m">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor</p>-->
+                        <!--<p class="bio__text-s">"Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor</p>-->
                     </div>
-                </div>
-                <div class="info__light-switch">
-                    <img src="img/light-switch.png" alt="">
+                    <div class="info__light-switch">
+                        <img src="img/light-switch.png" alt="">
+                    </div>
                 </div>
                 <div class="info__updates">
                     <h1 class="info__title">recent updates</h1>
                     <div class="info__item info__item--pic1">
-                        <p class="info__small-subtitle">Nunc turpis neque</p>
-                        <p class="info__big-subtitle">Nunc turpis neque feugiat eget</p>
-                        <p class="info__small-text">Posted by Admin on March 13</p>
-                        <p class="info__big-text">Posted by Admin on March 13 2012 in Recent News</p>
+                        <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
+                        <!--<p class="info__small-subtitle">Nunc turpis neque</p>-->
+                        <p class="info__text-xl">Posted by Admin on March 13 2012 in Recent News</p>
+                        <p class="info__text-l">Posted by Admin on March 13 2012</p>
+                        <!--<p class="info__small-text">Posted by Admin on March 13</p>-->
                     </div>
                     <div class="info__item info__item--pic2">
-                        <p class="info__small-subtitle">Nunc turpis neque</p>
-                        <p class="info__big-subtitle">Nunc turpis neque feugiat eget</p>
-                        <p class="info__small-text">Posted by Admin on March 13</p>
-                        <p class="info__big-text">Posted by Admin on March 13 2012 in Category</p>
+                        <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
+                        <!--<p class="info__small-subtitle">Nunc turpis neque</p>-->
+                        <p class="info__text-xl">Posted by Admin on March 13 2012 in Category</p>
+                        <p class="info__text-l">Posted by Admin on March 13 2012</p>
+                        <!--<p class="info__small-text">Posted by Admin on March 13</p>-->
                     </div>
                     <div class="info__item info__item--pic3">
-                        <p class="info__small-subtitle">Nunc turpis neque</p>
-                        <p class="info__big-subtitle">Nunc turpis neque feugiat eget</p>
-                        <p class="info__small-text">Posted by Admin on March 13</p>
-                        <p class="info__big-text">Posted by Admin on March 13 2012 in Blog Updates</p>
+                        <p class="info__subtitle-xl">Nunc turpis neque feugiat eget</p>
+                        <!--<p class="info__small-subtitle">Nunc turpis neque</p>-->
+                        <p class="info__text-xl">Posted by Admin on March 13 2012 in Blog Updates</p>
+                        <p class="info__text-l">Posted by Admin on March 13 2012</p>
+                        <!--<p class="info__small-text">Posted by Admin on March 13</p>-->
                     </div>
-                    <span class="info__small-extra">more blog posts</span>
-                    <span class="info__big-extra">read more here</span>
+                    <span class="info__extra-xl">read more here</span>
+                    <span class="info__extra-l">more blog posts</span>
+                    <!--<span class="info__small-extra">more blog posts</span>-->
                 </div>
             </div>
         </section>
@@ -121,37 +127,50 @@
         <!--END sponsors-->
 
         <section class="news">
-            <div>
-                <div class="news__item">
-                    <a href="#"><img src="img/logo2.png" alt="pingbuller"></a>
-                    <p>Copyright 2013, Pingbull AS</p>
-                    <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
+            <div class="news__box">
+                <div class="news__item-xl">
+                    <a class="news__logo" href="#"><img src="img/logo2.png" alt="pingbuller"></a>
+                    <p class="news__copy">Copyright 2013, Pingbull AS</p>
+                    <p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
                 </div>
-                <div class="news__item">
-                    <h1>recent comments</h1>
-                    <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                <div class="news__item-xl">
+                    <h1 class="news__title">recent comments</h1>
+                    <p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
                 </div>
-                <div class="news__item">
-                    <h1>news categories</h1>
-                    <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                <div class="news__item-xl">
+                    <h1 class="news__title">news categories</h1>
+                    <p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                </div>
+
+                <div class="news__item-l">
+                    <h1 class="news__title">news categories</h1>
+                    <p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero</p>
+                </div>
+                <div class="news__item-l indent">
+                    <h1 class="news__title">news categories</h1>
+                    <p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero</p>
+                </div>
+                <div class="news__item-l">
+                    <h1 class="news__title">news categories</h1>
+                    <p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero</p>
                 </div>
             </div>
         </section>
         <!--END news-->
 
         <footer>
+            <ul class="menu menu--footer clearfix">
+                <li class="menu__item"><a class="menu__link menu__link--footer" href="#">home</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--footer" href="#">about</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--footer" href="#">blog</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--footer" href="#">products</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--footer" href="#">lorem ipsum</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--footer" href="#">dolor sit amet</a></li>
+            </ul>
             <div class="footer__info">
                 <span class="footer__text">Designed by</span>
                 <span class="footer__text footer__text--bold">Pingbull AS</span>
             </div>
-            <nav class="menu">
-                <a class="menu__link" href="#">home</a>
-                <a class="menu__link" href="#">about</a>
-                <a class="menu__link" href="#">blog</a>
-                <a class="menu__link" href="#">products</a>
-                <a class="menu__link" href="#">lorem ipsum</a>
-                <a class="menu__link" href="#">dolor sit amet</a>
-            </nav>
         </footer>
         <!--END footer-->
     </div>
