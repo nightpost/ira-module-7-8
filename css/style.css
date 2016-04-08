@@ -454,6 +454,10 @@ header {
     display: none;
 }
 
+.news__item-m {
+    display: none;
+}
+
 .news__logo {
     display: block;
     margin-bottom: 18px;
@@ -503,7 +507,7 @@ footer {
 }
 
 .footer__info {
-    margin-top: 51px;
+    padding-top: 51px;
     float: right;
     letter-spacing: -.1px;
 }
