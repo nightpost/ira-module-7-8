@@ -522,4 +522,8 @@ footer {
 .footer__text--bold {
     font-family: 'OpenSans Extra-bold', Arial, sans-serif;
 }
+
+.menu--footer-m {
+    display: none;
+}
 /* END footer */
